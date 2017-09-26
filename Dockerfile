@@ -1,5 +1,5 @@
 #FROM frolvlad/alpine-glibc:alpine-3.6
-FROM debian:sid-slim
+FROM debian:wheezy-slim
 
 ENV JAVA_VERSION=9 \
     JAVA_UPDATE=ea \
