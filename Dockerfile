@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-glibc:alpine-3.6
+FROM frolvlad/alpine-glibc:alpine-3.7
 
 RUN apk update && apk upgrade && apk add wget ca-certificates
 
